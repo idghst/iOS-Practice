@@ -11,7 +11,7 @@
         <!--Symbol Roller View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="SymbolRollerViewController" customModule="SymbolRoller_SB" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SymbolRollerViewController" id="BYZ-38-t0r" customClass="SymbolRollerViewController" customModule="SymbolRoller_SB" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -66,7 +66,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="62" y="75"/>
+            <point key="canvasLocation" x="241" y="4"/>
         </scene>
     </scenes>
     <resources>
