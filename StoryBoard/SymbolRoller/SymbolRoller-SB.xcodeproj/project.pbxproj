@@ -15,7 +15,7 @@
 		D45AB00829256C9C006EFF96 /* SymbolRoller_SBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45AB00729256C9C006EFF96 /* SymbolRoller_SBTests.swift */; };
 		D45AB01229256C9C006EFF96 /* SymbolRoller_SBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45AB01129256C9C006EFF96 /* SymbolRoller_SBUITests.swift */; };
 		D45AB01429256C9C006EFF96 /* SymbolRoller_SBUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45AB01329256C9C006EFF96 /* SymbolRoller_SBUITestsLaunchTests.swift */; };
-		D45AB02329257153006EFF96 /* SymbolRollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45AB02229257153006EFF96 /* SymbolRollerViewController.swift */; };
+		D45D19B629292795008A4402 /* SymbolRollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45D19B529292795008A4402 /* SymbolRollerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		D45AB00D29256C9C006EFF96 /* SymbolRoller-SBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SymbolRoller-SBUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D45AB01129256C9C006EFF96 /* SymbolRoller_SBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRoller_SBUITests.swift; sourceTree = "<group>"; };
 		D45AB01329256C9C006EFF96 /* SymbolRoller_SBUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRoller_SBUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		D45AB02229257153006EFF96 /* SymbolRollerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRollerViewController.swift; sourceTree = SOURCE_ROOT; };
+		D45D19B529292795008A4402 /* SymbolRollerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRollerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +101,8 @@
 			children = (
 				D45AAFF029256C9B006EFF96 /* AppDelegate.swift */,
 				D45AAFF229256C9B006EFF96 /* SceneDelegate.swift */,
-				D45AB02229257153006EFF96 /* SymbolRollerViewController.swift */,
 				D45AAFF629256C9B006EFF96 /* Main.storyboard */,
+				D45D19B529292795008A4402 /* SymbolRollerViewController.swift */,
 				D45AAFF929256C9C006EFF96 /* Assets.xcassets */,
 				D45AAFFB29256C9C006EFF96 /* LaunchScreen.storyboard */,
 				D45AAFFE29256C9C006EFF96 /* Info.plist */,
@@ -260,7 +260,7 @@
 			files = (
 				D45AAFF129256C9B006EFF96 /* AppDelegate.swift in Sources */,
 				D45AAFF329256C9B006EFF96 /* SceneDelegate.swift in Sources */,
-				D45AB02329257153006EFF96 /* SymbolRollerViewController.swift in Sources */,
+				D45D19B629292795008A4402 /* SymbolRollerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
