@@ -16,3 +16,8 @@
 
 ## AppleFramework
 <img src="https://user-images.githubusercontent.com/98605631/204261283-4a6fdbb8-3781-4669-b244-144fd1ab61bf.png" width="200"> <img src="https://user-images.githubusercontent.com/98605631/204261294-30edd931-79f8-477d-bc46-938c37f6fee1.png" width="200">
+
+## InstaSearchView
+<img src="https://user-images.githubusercontent.com/98605631/208141660-93391dee-c30d-4217-87e7-a05bc90883cb.png" width="200"> <img src="https://user-images.githubusercontent.com/98605631/208141691-236f94b5-70e8-44de-ae0b-374ed7450b06.png" width="200"> <img src="https://user-images.githubusercontent.com/98605631/208141712-4edc5993-3cc7-484f-96d5-29eec7a1a502.png" width="200"> <br>
+<img src="https://user-images.githubusercontent.com/98605631/208141722-870cb45c-b15d-4dcc-a85c-96286a2700fe.png" width="200"> <img src="https://user-images.githubusercontent.com/98605631/208141731-859e09c1-73e2-44eb-bbde-5b3c04f42454.png" width="200"> <br>
+<img src="https://user-images.githubusercontent.com/98605631/208141736-4bc4223a-37b6-40b1-8201-f6b577364b1e.png" width="200"> <img src="https://user-images.githubusercontent.com/98605631/208141739-8e71dbd1-744f-489f-8484-2fd1551e7d59.png" width="200"> <img src="https://user-images.githubusercontent.com/98605631/208141743-13b75c2c-f912-4598-9b5e-83dd2c797bfa.png" width="200"> 
