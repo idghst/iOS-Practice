@@ -13,71 +13,57 @@ class AppleFrameworkViewController: UIViewController {
     
     let list: [AppleFramework] = AppleFramework.list
     
+    var dataSource: UICollectionViewDiffableDataSource<Section, Item>!
+
+    typealias Item = AppleFramework // 별명 부여
+    enum Section {
+        case main
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        collectionView.dataSource = self
         collectionView.delegate = self
         
         navigationController?.navigationBar.topItem?.title = "☀️ Apple Frameworks"
-                
-        if let flowlayout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout {
-            flowlayout.estimatedItemSize = .zero
-        }
         
-        collectionView.contentInset = UIEdgeInsets(top: 20, left: 16, bottom: 0, right: 16)
-
-    }
-
-}
-
-extension AppleFrameworkViewController: UICollectionViewDataSource {
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return list.count
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "AppleFrameworkCollectionViewCell", for: indexPath)
-        as? AppleFrameworkCollectionViewCell
-        else {  return UICollectionViewCell() }
-
-        let framework = list[indexPath.item]
-        cell.configure(framework)
-
-        return cell
-    }
-    
-}
-
-extension AppleFrameworkViewController: UICollectionViewDelegateFlowLayout {
-    
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-
-        let interItemSpacing: CGFloat = 10
-        let padding: CGFloat = 16
-
-//        // 2열일때 계산
-//        let width = (collectionView.bounds.width - interItemSpacing * 1 - padding * 2) / 2
+        dataSource = UICollectionViewDiffableDataSource<Section, Item>(collectionView: collectionView, cellProvider: { collectionView, indexPath, item in
+            
+            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "AppleFrameworkCollectionViewCell", for: indexPath) as? AppleFrameworkCollectionViewCell else {
+                return nil
+            }
+            
+            cell.configure(item)
+            return cell
+        })
         
-        // 3열일때 계산
-        let width = (collectionView.bounds.width - interItemSpacing * 2 - padding * 2) / 3
+        var snapshot = NSDiffableDataSourceSnapshot<Section, Item>()
+        snapshot.appendSections([.main])
+        snapshot.appendItems(list, toSection: .main)
+        dataSource.apply(snapshot)
         
-//        // 4열일때 계산
-//        let width = (collectionView.bounds.width - interItemSpacing * 3 - padding * 2) / 4
-        
-        let height = width * 1.5
-        
-        return CGSize(width: width, height: height)
+        collectionView.collectionViewLayout = layout()
     }
     
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
-        return 10
+    private func layout() -> UICollectionViewLayout {
+        
+        // 가로 : 가로 길이의 1/3
+        // 세로 : 세로 길이 그대로 사용
+        let itemSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1/3), heightDimension: .fractionalHeight(1))
+        let item = NSCollectionLayoutItem(layoutSize: itemSize)
+        
+        // 가로: 가로 길이 그대로 사용
+        // 세로: 가로 길이의 1/3을 세로 길이로 설정
+        let groupSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1), heightDimension: .fractionalWidth(4/9))
+        let group  = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, repeatingSubitem: item, count: 3)
+        
+        let section = NSCollectionLayoutSection(group: group)
+        section.contentInsets = NSDirectionalEdgeInsets(top: 0, leading: 16, bottom: 0, trailing: 16)
+        
+        let layout = UICollectionViewCompositionalLayout(section: section)
+        
+        return layout
     }
-    
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-        return 1
-    }
-    
 }
 
 extension AppleFrameworkViewController: UICollectionViewDelegate {
