@@ -18,6 +18,8 @@
 		D45D1ABE292BC82C008A4402 /* AppleFrameworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45D1ABD292BC82C008A4402 /* AppleFrameworkViewController.swift */; };
 		D45D1AC0292BC843008A4402 /* AppleFrameworkCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45D1ABF292BC843008A4402 /* AppleFrameworkCollectionViewCell.swift */; };
 		D45D1AC2292BC84E008A4402 /* AppleFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45D1AC1292BC84E008A4402 /* AppleFramework.swift */; };
+		F4F9BCC62972CA30004781B6 /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F9BCC52972CA30004781B6 /* Detail.storyboard */; };
+		F4F9BCC82972CBC2004781B6 /* AppleFrameworkDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F9BCC72972CBC2004781B6 /* AppleFrameworkDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		D45D1ABD292BC82C008A4402 /* AppleFrameworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFrameworkViewController.swift; sourceTree = "<group>"; };
 		D45D1ABF292BC843008A4402 /* AppleFrameworkCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFrameworkCollectionViewCell.swift; sourceTree = "<group>"; };
 		D45D1AC1292BC84E008A4402 /* AppleFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFramework.swift; sourceTree = "<group>"; };
+		F4F9BCC52972CA30004781B6 /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
+		F4F9BCC72972CBC2004781B6 /* AppleFrameworkDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFrameworkDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,9 +110,11 @@
 				D45D1A8D292BC807008A4402 /* AppDelegate.swift */,
 				D45D1A8F292BC807008A4402 /* SceneDelegate.swift */,
 				D45D1ABD292BC82C008A4402 /* AppleFrameworkViewController.swift */,
+				F4F9BCC72972CBC2004781B6 /* AppleFrameworkDetailViewController.swift */,
 				D45D1ABF292BC843008A4402 /* AppleFrameworkCollectionViewCell.swift */,
 				D45D1AC1292BC84E008A4402 /* AppleFramework.swift */,
 				D45D1A93292BC807008A4402 /* Main.storyboard */,
+				F4F9BCC52972CA30004781B6 /* Detail.storyboard */,
 				D45D1A96292BC808008A4402 /* Assets.xcassets */,
 				D45D1A98292BC808008A4402 /* LaunchScreen.storyboard */,
 				D45D1A9B292BC808008A4402 /* Info.plist */,
@@ -240,6 +246,7 @@
 				D45D1A9A292BC808008A4402 /* LaunchScreen.storyboard in Resources */,
 				D45D1A97292BC808008A4402 /* Assets.xcassets in Resources */,
 				D45D1A95292BC807008A4402 /* Main.storyboard in Resources */,
+				F4F9BCC62972CA30004781B6 /* Detail.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +276,7 @@
 				D45D1AC2292BC84E008A4402 /* AppleFramework.swift in Sources */,
 				D45D1ABE292BC82C008A4402 /* AppleFrameworkViewController.swift in Sources */,
 				D45D1A90292BC807008A4402 /* SceneDelegate.swift in Sources */,
+				F4F9BCC82972CBC2004781B6 /* AppleFrameworkDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,7 +14,7 @@ class AppleFrameworkViewController: UIViewController {
     let list: [AppleFramework] = AppleFramework.list
     
     var dataSource: UICollectionViewDiffableDataSource<Section, Item>!
-
+    
     typealias Item = AppleFramework // 별명 부여
     enum Section {
         case main
@@ -43,6 +43,8 @@ class AppleFrameworkViewController: UIViewController {
         dataSource.apply(snapshot)
         
         collectionView.collectionViewLayout = layout()
+        
+        collectionView.delegate = self
     }
     
     private func layout() -> UICollectionViewLayout {
@@ -70,5 +72,20 @@ extension AppleFrameworkViewController: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let framework = list[indexPath.item]
         print(">>> selected: \(framework.name)")
+        
+        let storyboard = UIStoryboard(name: "Detail", bundle: nil)
+        
+        // Storyboard ID 로 스토리보드를 찾는다
+        let viewController = storyboard.instantiateViewController(withIdentifier: "AppleFrameworkDetailViewController") as! AppleFrameworkDetailViewController
+        
+        // framework 데이터를 전달한다
+        viewController.framework = framework
+        
+        // 모달 스타일을 automatic 이 자동으로 설정된다
+        // automatic 은 아래로 내려 닫을 수 있다
+        // viewController.modalPresentationStyle = .fullScreen // 풀스크린으로 내리기 불가 -> 닫기 버튼 필요
+        
+        present(viewController, animated: true)
+        
     }
 }
