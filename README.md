@@ -21,14 +21,20 @@
 <img src="https://user-images.githubusercontent.com/98605631/210078097-c7b337c7-e027-495b-92ac-a1c9e984f09e.png" width="200"> <img src="https://user-images.githubusercontent.com/98605631/210078112-704c4de2-6782-45b5-905f-d8f88064cafc.png" width="200">
 
 ## InstaSearchView
-<img src="https://user-images.githubusercontent.com/98605631/208141660-93391dee-c30d-4217-87e7-a05bc90883cb.png" width="200"> <img src="https://user-images.githubusercontent.com/98605631/208141691-236f94b5-70e8-44de-ae0b-374ed7450b06.png" width="200"> <img src="https://user-images.githubusercontent.com/98605631/208141712-4edc5993-3cc7-484f-96d5-29eec7a1a502.png" width="200"> <br>
-<img src="https://user-images.githubusercontent.com/98605631/208141722-870cb45c-b15d-4dcc-a85c-96286a2700fe.png" width="200"> <img src="https://user-images.githubusercontent.com/98605631/208141731-859e09c1-73e2-44eb-bbde-5b3c04f42454.png" width="200"> <br>
+<img src="https://user-images.githubusercontent.com/98605631/208141660-93391dee-c30d-4217-87e7-a05bc90883cb.png" width="200"> <img src="https://user-images.githubusercontent.com/98605631/208141691-236f94b5-70e8-44de-ae0b-374ed7450b06.png" width="200"> <img src="https://user-images.githubusercontent.com/98605631/208141712-4edc5993-3cc7-484f-96d5-29eec7a1a502.png" width="200">
+<br>
+<img src="https://user-images.githubusercontent.com/98605631/208141722-870cb45c-b15d-4dcc-a85c-96286a2700fe.png" width="200"> <img src="https://user-images.githubusercontent.com/98605631/208141731-859e09c1-73e2-44eb-bbde-5b3c04f42454.png" width="200">
+<br>
 <img src="https://user-images.githubusercontent.com/98605631/208141736-4bc4223a-37b6-40b1-8201-f6b577364b1e.png" width="200"> <img src="https://user-images.githubusercontent.com/98605631/208141739-8e71dbd1-744f-489f-8484-2fd1551e7d59.png" width="200"> <img src="https://user-images.githubusercontent.com/98605631/208141743-13b75c2c-f912-4598-9b5e-83dd2c797bfa.png" width="200"> 
 
 ## NRCOnboarding
-<img src="https://user-images.githubusercontent.com/98605631/208426212-26069eb2-765a-4209-b15b-357df8fa2e9b.png" width="200"> <img src="https://user-images.githubusercontent.com/98605631/208426236-fdea8705-64fd-4c56-8619-2cb68dbb056d.png" width="200"> <br>
+<img src="https://user-images.githubusercontent.com/98605631/208426212-26069eb2-765a-4209-b15b-357df8fa2e9b.png" width="200"> <img src="https://user-images.githubusercontent.com/98605631/208426236-fdea8705-64fd-4c56-8619-2cb68dbb056d.png" width="200">
+<br>
 <img src="https://user-images.githubusercontent.com/98605631/208426242-f2f22729-d6f1-42a8-8c16-29c56446ae05.png" width="200"> <img src="https://user-images.githubusercontent.com/98605631/208426245-740907e3-f9dc-4b20-ac70-5578eb25a30c.png" width="200"> <img src="https://user-images.githubusercontent.com/98605631/208426249-591051f1-aee3-47c7-87b9-0ca83dea067b.png" width="200">
 
 ## HeadSpaceFucus
 
 <img src="https://user-images.githubusercontent.com/98605631/211216944-fe31672f-268a-480c-a9e9-5b4214de5352.png" width="200"> <img src="https://user-images.githubusercontent.com/98605631/211216948-7ed9619c-5619-4748-a699-34d60ee88e08.png" width="200"> <img src="https://user-images.githubusercontent.com/98605631/211216950-0cf65ade-5433-41f3-b7f0-9aacdfa3c538.png" width="200">
+
+## SpotifyPaywall
+<img src="https://user-images.githubusercontent.com/98605631/212465700-12c9f73a-26d0-4bf2-a8bb-550da2b184d9.png" width="200"> <img src="https://user-images.githubusercontent.com/98605631/212465699-19b3b12e-f82b-43e9-b0a2-b1e1696a39e5.png" width="200"> <img src="https://user-images.githubusercontent.com/98605631/212465691-f13e9761-8b06-4a5e-ab2d-91bc7bafe8a8.png" width="200"> <img src="https://user-images.githubusercontent.com/98605631/212465697-774f84d0-afae-4e0d-95c4-f753a561780c.png" width="200">
