@@ -42,6 +42,8 @@ class HeadSpaceFocusViewController: UIViewController {
         
         collectionView.collectionViewLayout = layout()
         
+        collectionView.delegate = self
+        
         // 버튼명 변경
         updateTitle()
     }
@@ -86,5 +88,23 @@ class HeadSpaceFocusViewController: UIViewController {
         snapshot.appendSections([.main])
         snapshot.appendItems(items, toSection: .main)
         dataSource.apply(snapshot)
+    }
+    
+    
+}
+
+extension HeadSpaceFocusViewController: UICollectionViewDelegate {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let item = items[indexPath.item]
+        print("\(item.title)")
+        
+        let storyboard = UIStoryboard(name: "QuickFocus", bundle: nil)
+        
+        let viewController = storyboard.instantiateViewController(withIdentifier: "QuickFocusListViewController") as! QuickFocusListViewController
+        
+        viewController.title = item.title
+        
+        navigationController?.pushViewController(viewController, animated: true)
+        
     }
 }
