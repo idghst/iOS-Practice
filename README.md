@@ -20,6 +20,11 @@
 ### DiffableDataSource
 <img src="https://user-images.githubusercontent.com/98605631/210078097-c7b337c7-e027-495b-92ac-a1c9e984f09e.png" width="200"> <img src="https://user-images.githubusercontent.com/98605631/210078112-704c4de2-6782-45b5-905f-d8f88064cafc.png" width="200">
 
+### Modal
+<img src="https://user-images.githubusercontent.com/98605631/212473185-a421a025-5533-4cb8-8706-d0cf814dec9b.png" width="200"> <img src="https://user-images.githubusercontent.com/98605631/212473186-9d5102b5-4565-45be-ba89-25f4d2164edb.png" width="200"> <img src="https://user-images.githubusercontent.com/98605631/212473189-87f0f102-3579-4dc2-826d-2f5fe8d7dfa1.png" width="200">
+<br>
+<img src="https://user-images.githubusercontent.com/98605631/212473193-d86dbfd2-cd08-4d2a-802b-4e2b4096bdb8.png" width="200"> <img src="https://user-images.githubusercontent.com/98605631/212473205-a154ca6f-ae7e-4e40-92ee-055cdd990eab.png" width="200"> <img src="https://user-images.githubusercontent.com/98605631/212473207-8e74cd2d-3759-42ff-9b2c-e097c3468fb8.png" width="200">
+
 ## InstaSearchView
 <img src="https://user-images.githubusercontent.com/98605631/208141660-93391dee-c30d-4217-87e7-a05bc90883cb.png" width="200"> <img src="https://user-images.githubusercontent.com/98605631/208141691-236f94b5-70e8-44de-ae0b-374ed7450b06.png" width="200"> <img src="https://user-images.githubusercontent.com/98605631/208141712-4edc5993-3cc7-484f-96d5-29eec7a1a502.png" width="200">
 <br>
