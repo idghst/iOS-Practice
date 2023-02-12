@@ -10,25 +10,26 @@ import SafariServices
 import Combine
 
 class AppleFrameworkDetailViewController: UIViewController {
-    
+
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
-    
+
     // Combine
     var subscription = Set<AnyCancellable>()
-    let buttonTapped = PassthroughSubject<AppleFramework, Never>()
-    let framework = CurrentValueSubject<AppleFramework, Never>(AppleFramework(name: "Unknown", imageName: "", urlString: "", description: ""))
-    
+
+    // view model
+    var viewModel: FrameworkDetailViewModel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         bind()
     }
-    
+
     private func bind() {
         // input
-        buttonTapped
+        viewModel.buttonTapped
             .receive(on: RunLoop.main)
             .compactMap { value in
                 URL(string: value.urlString)
@@ -38,9 +39,9 @@ class AppleFrameworkDetailViewController: UIViewController {
                 self.present(safari, animated: true)
             }
             .store(in: &subscription)
-        
+
         // output
-        framework
+        viewModel.framework
             .receive(on: RunLoop.main)
             .sink { [unowned self] framework in
                 self.imageView.image = UIImage(named: framework.imageName)
@@ -49,8 +50,8 @@ class AppleFrameworkDetailViewController: UIViewController {
             }
             .store(in: &subscription)
     }
-    
+
     @IBAction func learnMoreTapped(_ sender: Any) {
-        buttonTapped.send(framework.value)
+        viewModel.learnMoreTapped()
     }
 }
