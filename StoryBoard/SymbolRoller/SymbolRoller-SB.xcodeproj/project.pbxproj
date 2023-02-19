@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D45AAFF129256C9B006EFF96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45AAFF029256C9B006EFF96 /* AppDelegate.swift */; };
+		D45AAFF329256C9B006EFF96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45AAFF229256C9B006EFF96 /* SceneDelegate.swift */; };
+		D45AAFF829256C9B006EFF96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45AAFF629256C9B006EFF96 /* Main.storyboard */; };
+		D45AAFFA29256C9C006EFF96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D45AAFF929256C9C006EFF96 /* Assets.xcassets */; };
+		D45AAFFD29256C9C006EFF96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45AAFFB29256C9C006EFF96 /* LaunchScreen.storyboard */; };
+		D45AB00829256C9C006EFF96 /* SymbolRoller_SBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45AB00729256C9C006EFF96 /* SymbolRoller_SBTests.swift */; };
+		D45AB01229256C9C006EFF96 /* SymbolRoller_SBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45AB01129256C9C006EFF96 /* SymbolRoller_SBUITests.swift */; };
+		D45AB01429256C9C006EFF96 /* SymbolRoller_SBUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45AB01329256C9C006EFF96 /* SymbolRoller_SBUITestsLaunchTests.swift */; };
+		D45D19B629292795008A4402 /* SymbolRollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45D19B529292795008A4402 /* SymbolRollerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D45AB00429256C9C006EFF96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D45AAFE529256C9B006EFF96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D45AAFEC29256C9B006EFF96;
+			remoteInfo = "SymbolRoller-SB";
+		};
+		D45AB00E29256C9C006EFF96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D45AAFE529256C9B006EFF96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D45AAFEC29256C9B006EFF96;
+			remoteInfo = "SymbolRoller-SB";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D45AAFED29256C9B006EFF96 /* SymbolRoller-SB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SymbolRoller-SB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45AAFF029256C9B006EFF96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D45AAFF229256C9B006EFF96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D45AAFF729256C9B006EFF96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D45AAFF929256C9C006EFF96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D45AAFFC29256C9C006EFF96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D45AAFFE29256C9C006EFF96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D45AB00329256C9C006EFF96 /* SymbolRoller-SBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SymbolRoller-SBTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45AB00729256C9C006EFF96 /* SymbolRoller_SBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRoller_SBTests.swift; sourceTree = "<group>"; };
+		D45AB00D29256C9C006EFF96 /* SymbolRoller-SBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SymbolRoller-SBUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45AB01129256C9C006EFF96 /* SymbolRoller_SBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRoller_SBUITests.swift; sourceTree = "<group>"; };
+		D45AB01329256C9C006EFF96 /* SymbolRoller_SBUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRoller_SBUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D45D19B529292795008A4402 /* SymbolRollerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRollerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D45AAFEA29256C9B006EFF96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45AB00029256C9C006EFF96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45AB00A29256C9C006EFF96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D45AAFE429256C9B006EFF96 = {
+			isa = PBXGroup;
+			children = (
+				D45AAFEF29256C9B006EFF96 /* SymbolRoller-SB */,
+				D45AB00629256C9C006EFF96 /* SymbolRoller-SBTests */,
+				D45AB01029256C9C006EFF96 /* SymbolRoller-SBUITests */,
+				D45AAFEE29256C9B006EFF96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D45AAFEE29256C9B006EFF96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D45AAFED29256C9B006EFF96 /* SymbolRoller-SB.app */,
+				D45AB00329256C9C006EFF96 /* SymbolRoller-SBTests.xctest */,
+				D45AB00D29256C9C006EFF96 /* SymbolRoller-SBUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D45AAFEF29256C9B006EFF96 /* SymbolRoller-SB */ = {
+			isa = PBXGroup;
+			children = (
+				D45AAFF029256C9B006EFF96 /* AppDelegate.swift */,
+				D45AAFF229256C9B006EFF96 /* SceneDelegate.swift */,
+				D45AAFF629256C9B006EFF96 /* Main.storyboard */,
+				D45D19B529292795008A4402 /* SymbolRollerViewController.swift */,
+				D45AAFF929256C9C006EFF96 /* Assets.xcassets */,
+				D45AAFFB29256C9C006EFF96 /* LaunchScreen.storyboard */,
+				D45AAFFE29256C9C006EFF96 /* Info.plist */,
+			);
+			path = "SymbolRoller-SB";
+			sourceTree = "<group>";
+		};
+		D45AB00629256C9C006EFF96 /* SymbolRoller-SBTests */ = {
+			isa = PBXGroup;
+			children = (
+				D45AB00729256C9C006EFF96 /* SymbolRoller_SBTests.swift */,
+			);
+			path = "SymbolRoller-SBTests";
+			sourceTree = "<group>";
+		};
+		D45AB01029256C9C006EFF96 /* SymbolRoller-SBUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D45AB01129256C9C006EFF96 /* SymbolRoller_SBUITests.swift */,
+				D45AB01329256C9C006EFF96 /* SymbolRoller_SBUITestsLaunchTests.swift */,
+			);
+			path = "SymbolRoller-SBUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D45AAFEC29256C9B006EFF96 /* SymbolRoller-SB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D45AB01729256C9C006EFF96 /* Build configuration list for PBXNativeTarget "SymbolRoller-SB" */;
+			buildPhases = (
+				D45AAFE929256C9B006EFF96 /* Sources */,
+				D45AAFEA29256C9B006EFF96 /* Frameworks */,
+				D45AAFEB29256C9B006EFF96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SymbolRoller-SB";
+			productName = "SymbolRoller-SB";
+			productReference = D45AAFED29256C9B006EFF96 /* SymbolRoller-SB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D45AB00229256C9C006EFF96 /* SymbolRoller-SBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D45AB01A29256C9C006EFF96 /* Build configuration list for PBXNativeTarget "SymbolRoller-SBTests" */;
+			buildPhases = (
+				D45AAFFF29256C9C006EFF96 /* Sources */,
+				D45AB00029256C9C006EFF96 /* Frameworks */,
+				D45AB00129256C9C006EFF96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D45AB00529256C9C006EFF96 /* PBXTargetDependency */,
+			);
+			name = "SymbolRoller-SBTests";
+			productName = "SymbolRoller-SBTests";
+			productReference = D45AB00329256C9C006EFF96 /* SymbolRoller-SBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D45AB00C29256C9C006EFF96 /* SymbolRoller-SBUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D45AB01D29256C9C006EFF96 /* Build configuration list for PBXNativeTarget "SymbolRoller-SBUITests" */;
+			buildPhases = (
+				D45AB00929256C9C006EFF96 /* Sources */,
+				D45AB00A29256C9C006EFF96 /* Frameworks */,
+				D45AB00B29256C9C006EFF96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D45AB00F29256C9C006EFF96 /* PBXTargetDependency */,
+			);
+			name = "SymbolRoller-SBUITests";
+			productName = "SymbolRoller-SBUITests";
+			productReference = D45AB00D29256C9C006EFF96 /* SymbolRoller-SBUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D45AAFE529256C9B006EFF96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					D45AAFEC29256C9B006EFF96 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					D45AB00229256C9C006EFF96 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = D45AAFEC29256C9B006EFF96;
+					};
+					D45AB00C29256C9C006EFF96 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = D45AAFEC29256C9B006EFF96;
+					};
+				};
+			};
+			buildConfigurationList = D45AAFE829256C9B006EFF96 /* Build configuration list for PBXProject "SymbolRoller-SB" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D45AAFE429256C9B006EFF96;
+			productRefGroup = D45AAFEE29256C9B006EFF96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D45AAFEC29256C9B006EFF96 /* SymbolRoller-SB */,
+				D45AB00229256C9C006EFF96 /* SymbolRoller-SBTests */,
+				D45AB00C29256C9C006EFF96 /* SymbolRoller-SBUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D45AAFEB29256C9B006EFF96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45AAFFD29256C9C006EFF96 /* LaunchScreen.storyboard in Resources */,
+				D45AAFFA29256C9C006EFF96 /* Assets.xcassets in Resources */,
+				D45AAFF829256C9B006EFF96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45AB00129256C9C006EFF96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45AB00B29256C9C006EFF96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D45AAFE929256C9B006EFF96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45AAFF129256C9B006EFF96 /* AppDelegate.swift in Sources */,
+				D45AAFF329256C9B006EFF96 /* SceneDelegate.swift in Sources */,
+				D45D19B629292795008A4402 /* SymbolRollerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45AAFFF29256C9C006EFF96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45AB00829256C9C006EFF96 /* SymbolRoller_SBTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45AB00929256C9C006EFF96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45AB01229256C9C006EFF96 /* SymbolRoller_SBUITests.swift in Sources */,
+				D45AB01429256C9C006EFF96 /* SymbolRoller_SBUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D45AB00529256C9C006EFF96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D45AAFEC29256C9B006EFF96 /* SymbolRoller-SB */;
+			targetProxy = D45AB00429256C9C006EFF96 /* PBXContainerItemProxy */;
+		};
+		D45AB00F29256C9C006EFF96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D45AAFEC29256C9B006EFF96 /* SymbolRoller-SB */;
+			targetProxy = D45AB00E29256C9C006EFF96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D45AAFF629256C9B006EFF96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D45AAFF729256C9B006EFF96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D45AAFFB29256C9C006EFF96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D45AAFFC29256C9C006EFF96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D45AB01529256C9C006EFF96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D45AB01629256C9C006EFF96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D45AB01829256C9C006EFF96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6XVG78PFQ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SymbolRoller-SB/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idghst.SymbolRoller-SB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D45AB01929256C9C006EFF96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6XVG78PFQ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SymbolRoller-SB/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idghst.SymbolRoller-SB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D45AB01B29256C9C006EFF96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6XVG78PFQ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idghst.SymbolRoller-SBTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SymbolRoller-SB.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SymbolRoller-SB";
+			};
+			name = Debug;
+		};
+		D45AB01C29256C9C006EFF96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6XVG78PFQ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idghst.SymbolRoller-SBTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SymbolRoller-SB.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SymbolRoller-SB";
+			};
+			name = Release;
+		};
+		D45AB01E29256C9C006EFF96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6XVG78PFQ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idghst.SymbolRoller-SBUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SymbolRoller-SB";
+			};
+			name = Debug;
+		};
+		D45AB01F29256C9C006EFF96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6XVG78PFQ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idghst.SymbolRoller-SBUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SymbolRoller-SB";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D45AAFE829256C9B006EFF96 /* Build configuration list for PBXProject "SymbolRoller-SB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45AB01529256C9C006EFF96 /* Debug */,
+				D45AB01629256C9C006EFF96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D45AB01729256C9C006EFF96 /* Build configuration list for PBXNativeTarget "SymbolRoller-SB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45AB01829256C9C006EFF96 /* Debug */,
+				D45AB01929256C9C006EFF96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D45AB01A29256C9C006EFF96 /* Build configuration list for PBXNativeTarget "SymbolRoller-SBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45AB01B29256C9C006EFF96 /* Debug */,
+				D45AB01C29256C9C006EFF96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D45AB01D29256C9C006EFF96 /* Build configuration list for PBXNativeTarget "SymbolRoller-SBUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45AB01E29256C9C006EFF96 /* Debug */,
+				D45AB01F29256C9C006EFF96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D45AAFE529256C9B006EFF96 /* Project object */;
+}
